@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/logo.png">
+    <title>liel pets</title>
+</head>
+
+<body>
+    
+    <header id="head">
+        <a href="homePage.html">
+            <img src="../images/logo.png" class="logo" width="70%" height="35%">
+        </a>
+        <div class="dropdown">
+            <label for="animals" class="categories">החיות שלנו</label> 
+           <ul class="dropdown-menu">
+            <li><a href="Rodents.html"> מכרסמים </a></li>
+            <li><a href="parrots.html">  בעלי כנף </a></li>
+            <li><a href="Fishes.html">דגים</a></li>
+
+
+           </ul>
+                
+        </div>
+        <div class="dropdown">
+            <label for="animals" class="categories">המוצרים שלנו</label> 
+           <ul class="dropdown-menu">
+            <li><a href="cages.html"> כלובים </a></li>
+            <li><a href="equipment.html">  ציוד </a></li>
+            <li><a href="food.html">מזון</a></li>
+
+
+           </ul>
+                
+        </div>
+        <a href="orders.html"><div class="categories">הזמנות</div></a>
+        <a href="about.html"><div class="categories">קצת עלינו...</div></a>
+       
+    </header>
+
+
+    <form action="thanks.html" id="adoptionForm">
+        <fieldset>
+            <legend>פרטים אישיים</legend>
+              <label >שם פרטי:</label>
+              <input type ="text" required="true" ><br> 
+              <label>שם משפחה:</label>
+              <input type="text"><br>
+              <lable>כתובת:</lable>
+              <input type="text"><br>
+              <label>מספר טלפון:</label>
+              <input type="tel" pattern="^\d{2,3}\d{7}$"    ><br>
+              <label>דוא"ל:</label>
+              <input type="email"  autocomplete="on"   ><br>
+              
+              
+           <div class="form-buttons">
+              <input type="submit" value="שלח טופס">
+              <input type="reset" value="נקה טופס">
+            </div>
+
+        </fieldset>
+    </form>
+<div id="img1"></div>
+<div id="img2"></div>
+
+
+      <footer id="foot">
+             <div class="foot-container">
+              <div class="foot-item">
+            <span>📞 טלפון:</span>
+            <span>03-9323239</span>
+        </div>
+        
+        <div class="foot-item">
+            <a href="about.html" class="foot-link">קצת עלינו</a>
+        </div>
+    </div>
+    <div class="foot-copy">
+        &copy; אתר בעלי החיים שלי
+    </div>
+</footer>
+
+</body>
+</html>

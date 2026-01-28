@@ -1,0 +1,217 @@
+
+h1{
+
+    color:red;
+    text-align: justify;
+}
+p{
+     text-align: center; 
+}
+p#p3{
+    color:cadetblue;
+}
+.clsborder{
+    border:2px dashed blueviolet; 
+
+    color:chocolate;
+}
+p#p1{
+    text-align: left;
+  
+    border:3px solid greenyellow;
+}
+p#p2{
+    text-align-last: right;
+}
+
+.cls{
+    color:aqua
+}
+
+img.round2 {
+    border: 5px solid red;
+    border-color: brown;
+    border-radius: 12px;
+}
+
+
+.p1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;   
+    font-family: monospace;
+    font-style: normal;  
+}
+
+.product-card {
+    width: 70%; 
+    border: 5px solid turquoise; 
+    padding: 8px; 
+    text-align: center; 
+    background-color:white ;
+    margin: 15%; 
+    border-radius: 8px; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.product-card img {
+    width: 100%; 
+    height: 80%; 
+    border-radius: 5px;
+}
+
+.product-name {
+    font-size: 16px; 
+    font-weight: bold; 
+    margin-top: 10px; 
+    color: #333; 
+}
+
+.product-price {
+    font-size: 14px;
+    color: #d00; 
+    margin-top: 4px; 
+    font-weight: bold;
+}
+
+.product-card button {
+    background-color: turquoise; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    margin: 10px auto; 
+    display: block;   
+    width: fit-content;
+}
+
+.product-card button:hover {
+    background-color: #4CAF50; 
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-card button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+#img1{
+    background-image: url('../images/Budgerigar\ parrot\ 5.png');
+    background-size: cover;
+    position: absolute;
+    top: 35%;
+    right: 0%;
+    width: 30%;
+    height: 60%;
+    animation: jump;
+    animation-duration:0.8s;
+    animation-iteration-count: infinite;
+}
+#img2{
+    background-image: url('../images/blueParrot.png');
+    background-size: cover;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: 25%;
+    height: 50%;
+    animation: jump2;
+    animation-duration:0.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jump{
+    0%{
+        transform: translateY(-15%);
+    }
+}
+
+@keyframes jump2{
+    0%{
+        transform: translate(-20%,-20%) rotate(0deg);
+    }
+    25%{
+        transform: translate(-20%,-20%) rotate(-8deg);
+    }
+    50%{
+        transform: translate(-20%,-20%) rotate(0deg);
+    }
+    75%{
+        transform: translate(-20%,-20%) rotate(8deg);
+    }
+    100%{
+        transform: translate(-20%,-20%) rotate(0deg);
+    }
+}
+
+.page-content {
+    flex: 1; 
+    position: relative;
+    min-height: 600px; 
+}
+
+
+
+#adoptionForm input[type="submit"], 
+#adoptionForm input[type="reset"] {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    margin: 10px 5px;
+    font-family: inherit;
+}
+
+#adoptionForm input[type="submit"] {
+    background-color: #26e0cf;
+    color: white;
+    box-shadow: 0 4px 15px rgba(38, 224, 207, 0.3);
+}
+
+#adoptionForm input[type="reset"] {
+    background-color: #e0e0e0;
+    color: #666;
+}
+
+#adoptionForm input[type="submit"]:hover {
+    background-color: #1fc4b5;
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 20px rgba(38, 224, 207, 0.4);
+}
+
+#adoptionForm input[type="reset"]:hover {
+    background-color: #d1d1d1;
+    color: #333;
+}
+
+#orders{
+    background-image: url('../images/orders.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-y:-10%;
+    background-position-x: center;
+}
+
+#about{
+    background-image: url('../images/about.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-y:-2%;
+    background-position-x: center; 
+}
